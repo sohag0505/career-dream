@@ -1,0 +1,60 @@
+.home-container {
+  margin-left: 220px;
+  margin-right: 200px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.header-details h2 {
+  font-size: 50px;
+}
+
+.header-details .dream {
+  color: rgb(48, 128, 160);
+}
+
+.btn-job {
+  background-color: rgb(107, 107, 198);
+  color: white;
+  margin-top: 25px;
+}
+
+.header-logo img {
+  height: 500px;
+  width: 450px;
+  margin-top: 25px;
+}
+
+.job-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.job-container {
+  text-align: center;
+}
+
+.job-container h2 {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-all-job {
+  color: white;
+  text-align: center;
+}
+
+.btn-all-job .btn {
+  background-color: rgb(100, 100, 191);
+  color: white;
+}

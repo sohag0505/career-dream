@@ -1,0 +1,31 @@
+.header {
+  height: 80px;
+  background-color: #e7eaeb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.nav-content a:hover {
+  color: orange;
+}
+
+.btn-apply {
+  background-color: rgb(107, 107, 198);
+  color: white;
+}
