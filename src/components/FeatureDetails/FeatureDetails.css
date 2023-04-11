@@ -1,0 +1,26 @@
+.featureDetailsTitle {
+  text-align: center;
+  font-size: large;
+}
+
+.featureDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 200px;
+  padding: 50px;
+  margin-left: 180px;
+  margin-right: 150px;
+}
+
+.FeatureCart {
+  background-color: rgb(246, 241, 241);
+  border-radius: 8px;
+  margin: 20px;
+  padding: 50px;
+}
+
+.FeatureCart button {
+  color: white;
+  background-color: rgb(102, 102, 216);
+  margin-top: 10px;
+}

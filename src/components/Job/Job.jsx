@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getShoppingCart } from "../../fakeData/fakedb";
+import "./Job.css";
 
 const Job = () => {
   const [carts, setCarts] = useState([]);
@@ -21,12 +22,28 @@ const Job = () => {
   }, []);
   console.log(carts);
   return (
-    <div>
-      <h2>This is job page.</h2>
+    <div className="applied-job-container">
+      <div className="applied-job-title">
+        <h2>Applied Jobs</h2>
+      </div>
       {carts.map((cart) => (
-        <h2>
-          {cart.name}--{cart.companyName}
-        </h2>
+        <div className="applied-cart">
+          <div className="applied-img">
+            <img className="img" src={cart.img} alt="" />
+          </div>
+          <div className="applied-cart-details">
+            <p>{cart.name}</p>
+            <p>{cart.companyName}</p>
+            <div className="applied-button">
+              <button>Remort</button>
+              <button>Fullname</button>
+            </div>
+            <p>Location: {cart.jobLocation}</p>
+          </div>
+          <div className="applied-btn">
+            <button className="btn-applied">View Details</button>
+          </div>
+        </div>
       ))}
     </div>
   );

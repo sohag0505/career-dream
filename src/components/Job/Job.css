@@ -1,0 +1,35 @@
+.applied-job-title {
+  text-align: center;
+  font-size: large;
+}
+
+.applied-cart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(242, 245, 245);
+  padding: 10px;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 20px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.applied-img .img {
+  height: 200px;
+  width: 200px;
+}
+
+.applied-cart-details button {
+  border: 1px solid blue;
+}
+
+.applied-button {
+  display: flex;
+  gap: 10px;
+}
+
+.applied-btn .btn-applied {
+  color: white;
+  background-color: rgb(91, 91, 208);
+}
