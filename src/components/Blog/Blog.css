@@ -1,0 +1,11 @@
+.blog-container {
+  margin-left: 210px;
+  margin-right: 200px;
+  margin-top: 50px;
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+.blog-title h2 {
+  color: rgb(211, 105, 105);
+}

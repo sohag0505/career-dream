@@ -47,6 +47,8 @@ const Statistics = () => {
   ];
   return (
     <div className="container-fit">
+      <h2>Assigement Marks in Programming Hero</h2>
+      <p>Name: Sohag hossain</p>
       <div className="flex items-center justify-center mt-40">
         <AreaChart
           width={900}
