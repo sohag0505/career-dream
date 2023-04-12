@@ -13,9 +13,9 @@ const FeaturedJob = ({ feature }) => {
       <h2>{name}</h2>
       <h3>{companyName}</h3>
       <p>{jobType}</p>
-      <p>{jobLocation}</p>
-      <p>{salary}</p>
-      <div>
+      <p>Location: {jobLocation}</p>
+      <p>Salary: {salary}</p>
+      <div className="feature-button">
         <Link to={`/featureDetails/${id}`}>
           <button>View Details</button>
         </Link>

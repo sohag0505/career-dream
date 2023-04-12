@@ -13,3 +13,8 @@
 .feature-container2 .img-container {
   width: 100%;
 }
+
+.feature-button button {
+  background-color: rgb(117, 117, 209);
+  color: white;
+}
