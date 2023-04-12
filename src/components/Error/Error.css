@@ -1,0 +1,12 @@
+.error-container {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .error-container {
+    margin-top: 150px;
+  }
+  .error-container h1 {
+    font-size: 29px;
+  }
+}
