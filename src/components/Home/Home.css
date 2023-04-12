@@ -58,3 +58,57 @@
   background-color: rgb(100, 100, 191);
   color: white;
 }
+
+@media screen and (max-width: 576px) {
+  .home-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .home-header {
+    display: block;
+  }
+  .header-details h2 {
+    font-size: 20px;
+  }
+  .header-details {
+    margin-top: 150px;
+  }
+  .header-details .dream {
+    color: rgb(48, 128, 160);
+  }
+  .btn-job {
+    background-color: rgb(107, 107, 198);
+    color: white;
+    margin-top: 5px;
+  }
+  .header-logo img {
+    height: 250px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  .job-details {
+    display: block;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  .job-container {
+    text-align: center;
+  }
+  .job-container h2 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .feature-container {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-all-job {
+    color: white;
+    text-align: center;
+  }
+  .btn-all-job .btn {
+    background-color: rgb(100, 100, 191);
+    color: white;
+  }
+}

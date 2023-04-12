@@ -5,7 +5,6 @@ import "./FeatureDetails.css";
 
 const FeatureDetails = () => {
   const job = useLoaderData();
-  console.log(job);
   const handleApplyNow = () => {
     addToDb(job.id);
     alert("added");

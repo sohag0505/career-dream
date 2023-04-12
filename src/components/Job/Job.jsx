@@ -17,7 +17,6 @@ const Job = () => {
       const filteredJob = fullCarts.filter((currentJob) => {
         const jobTypes = currentJob.jobType.join(" ");
         if (jobTypes.toLowerCase().includes(selection.toLocaleLowerCase())) {
-          console.log(selection, jobTypes);
           return currentJob;
         }
       });

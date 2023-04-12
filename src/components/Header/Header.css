@@ -29,3 +29,34 @@
   background-color: rgb(107, 107, 198);
   color: white;
 }
+
+@media screen and (max-width: 576px) {
+  .header {
+    height: 40px;
+    background-color: #e7eaeb;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .nav-content {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .nav-content a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0px;
+  }
+  .nav-content a:hover {
+    color: orange;
+  }
+  .btn-apply {
+    background-color: rgb(107, 107, 198);
+    color: white;
+  }
+}
