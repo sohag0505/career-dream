@@ -49,7 +49,7 @@ const Statistics = () => {
     <div className="container-fit">
       <h2>Assigement Marks in Programming Hero</h2>
       <p>Name: Sohag hossain</p>
-      <div className="flex items-center justify-center mt-40">
+      <div className="sts-container">
         <AreaChart
           width={900}
           height={300}

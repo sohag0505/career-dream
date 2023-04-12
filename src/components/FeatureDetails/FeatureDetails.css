@@ -24,3 +24,33 @@
   background-color: rgb(102, 102, 216);
   margin-top: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  .featureDetailsContainer {
+    margin-top: 150px;
+    padding: 5px;
+  }
+  .featureDetailsTitle {
+    text-align: center;
+    font-size: small;
+  }
+  .featureDetails {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .FeatureCart {
+    background-color: rgb(246, 241, 241);
+    border-radius: 8px;
+    margin: 2px;
+    padding: 5px;
+  }
+  .FeatureCart button {
+    color: white;
+    background-color: rgb(102, 102, 216);
+    margin-top: 1px;
+  }
+}

@@ -18,3 +18,23 @@
   background-color: rgb(117, 117, 209);
   color: white;
 }
+
+@media screen and (max-width: 576px) {
+  .feature-container2 {
+    background-color: rgb(246, 244, 242);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+  }
+  .feature-container2 img {
+    max-height: 250px;
+    width: 250px;
+  }
+  .feature-container2 .img-container {
+    width: 100%;
+  }
+  .feature-button button {
+    background-color: rgb(117, 117, 209);
+    color: white;
+  }
+}

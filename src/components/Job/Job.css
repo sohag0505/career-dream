@@ -47,3 +47,50 @@
   display: flex;
   gap: 5px;
 }
+
+@media screen and (max-width: 576px) {
+  .applied-job-container {
+    margin-top: 150px;
+  }
+  .applied-job-title {
+    text-align: center;
+    font-size: small;
+  }
+  .applied-cart {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(242, 245, 245);
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    align-items: center;
+  }
+  .applied-filter {
+    margin-left: 5px;
+  }
+  .filter-area {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .applied-img .img {
+    height: 200px;
+    width: 200px;
+  }
+  .applied-cart-details button {
+    border: 1px solid blue;
+  }
+  .applied-button button {
+    display: block;
+    gap: 10px;
+  }
+  .applied-btn .btn-applied {
+    color: white;
+    background-color: rgb(91, 91, 208);
+  }
+  .applied-cart-button {
+    display: flex;
+    gap: 5px;
+  }
+}
