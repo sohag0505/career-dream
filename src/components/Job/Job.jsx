@@ -29,7 +29,7 @@ const Job = () => {
       {carts.map((cart) => (
         <div className="applied-cart">
           <div className="applied-img">
-            <img className="img" src={cart.img} alt="" />
+            <img className="img" src={cart.img} />
           </div>
           <div className="applied-cart-details">
             <p>{cart.name}</p>
