@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { getShoppingCart } from "../../fakeData/fakedb";
 import "./Job.css";
 
@@ -21,10 +22,21 @@ const Job = () => {
       });
   }, []);
   console.log(carts);
+
   return (
     <div className="applied-job-container">
       <div className="applied-job-title">
         <h2>Applied Jobs</h2>
+        <div>
+          <select>
+            <option value="filter" disabled selected>
+              Filter
+            </option>
+            <option value="both">Both</option>
+            <option value="remote">Remote</option>
+            <option value="full time">Full Time</option>
+          </select>
+        </div>
       </div>
       {carts.map((cart) => (
         <div className="applied-cart">
@@ -35,13 +47,16 @@ const Job = () => {
             <p>{cart.name}</p>
             <p>{cart.companyName}</p>
             <div className="applied-button">
-              <button>Remort</button>
-              <button>Fullname</button>
+              <button>{cart.jobType}</button>
             </div>
             <p>Location: {cart.jobLocation}</p>
           </div>
           <div className="applied-btn">
-            <button className="btn-applied">View Details</button>
+            <div>
+              <Link to={`/featureDetails/${cart.id}`}>
+                <button>View Details</button>
+              </Link>
+            </div>
           </div>
         </div>
       ))}

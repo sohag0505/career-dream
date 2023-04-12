@@ -24,7 +24,7 @@
   border: 1px solid blue;
 }
 
-.applied-button {
+.applied-button button {
   display: flex;
   gap: 10px;
 }

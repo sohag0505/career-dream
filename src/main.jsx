@@ -6,6 +6,7 @@ import FeatureDetails from "./components/FeatureDetails/FeatureDetails";
 import Home from "./components/Home/Home";
 import Job from "./components/Job/Job";
 import Main from "./components/Layout/Main";
+import Statistics from "./components/Statistics/Statistics";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -17,7 +18,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
       {
         path: "job",
         element: <Job></Job>,
